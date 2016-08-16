@@ -1,6 +1,7 @@
 # DO-I-KNOW-YOU
 Online Identity Authentication
+There are many means by which identity authentication takes place on the internet like the use of Certification Agents, Personal certificates or even the latest practice of deriving tie strength between inviters and their mutual friends to authenticate online identities. But when two people do not have any mutual friend, it becomes difficult for one of them to take an decision about the authenticity of the online identity of the other. In such cases, using a global reputation scheme which authenticates users based on the reputations by the chain of friends will help in getting better results. We present a scheme for multi-level user identity authentication. The proposed scheme uses the concept of Reputation Algebra and Eigen Trust value Algorithm in peer to peer networks.
 
 The file trust.py is the code sample for calcultating the the various trust values discussed in the paper between any two nodes. For simplicity, the social factors have been manually entered and thus the local trust values have been computed accordingly. All the values, terms have been explained in the paper. 
 
-The folder 5 node and 10 node consists of  simple plots of the local and global trust values for a graph of 5 nodes and 10 nodes respectively. The other two screenshots in the 10 node folder are the computed values for the graph of 10 nodes.
+The folder 5 node and 10 node consists of  simple plots of the local and global trust values for a graph of 5 nodes and 10 nodes respectively. The other two screenshots in the 10 node folder are the computed values for the graph of 10 nodes. The number of nodes for this example was chosen to be low due to large computation and processing time. 
